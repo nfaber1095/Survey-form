@@ -1,3 +1,9 @@
+img {max-width: 50% ;
+    max-height: 50% ;
+    margin-left: 25% ;
+    padding-top: 5vh ;
+
+}
 h1 {margin: 0.75em auto ;
     text-align: center;
 }
@@ -23,8 +29,9 @@ form {
     min-width: 300px ;
 }
 
-/*fieldset{ margin: 0.5rem auto ;
-} */
+fieldset{ margin: 0.5rem auto ;
+    /*border: none */
+}
 
 label {display: block ;
     margin: 0.5rem auto ;   
@@ -48,6 +55,7 @@ label {display: block ;
 }
 
 .button {margin: auto 45% ;
+    margin-bottom: 5px;
 }
 
 /*double border on boxes, last-of-type for submit (move up/away from bottom), prefilled text in textareas */
